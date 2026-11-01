@@ -1,0 +1,13 @@
+timestamp,source_ip,destination_ip,username,event_type,action,protocol,status,hostname,port,bytes_sent,bytes_received,description,raw_payload
+2026-11-01T10:14:02,198.51.100.42,10.0.1.15,administrator,Authentication,LOGIN_FAILED,RDP,FAILED,auth-gateway-prod,3389,128,256,Failed NTLM login attempt from external IP,NTLMSSP_AUTH_REJECTED_BAD_PASSWORD
+2026-11-01T10:14:18,198.51.100.42,10.0.1.15,administrator,Authentication,LOGIN_FAILED,RDP,FAILED,auth-gateway-prod,3389,128,256,Failed NTLM login attempt from external IP,NTLMSSP_AUTH_REJECTED_BAD_PASSWORD
+2026-11-01T10:14:35,198.51.100.42,10.0.1.15,administrator,Authentication,LOGIN_FAILED,RDP,FAILED,auth-gateway-prod,3389,128,256,Failed NTLM login attempt from external IP,NTLMSSP_AUTH_REJECTED_BAD_PASSWORD
+2026-11-01T10:14:52,198.51.100.42,10.0.1.15,administrator,Authentication,LOGIN_FAILED,RDP,FAILED,auth-gateway-prod,3389,128,256,Failed NTLM login attempt from external IP,NTLMSSP_AUTH_REJECTED_BAD_PASSWORD
+2026-11-01T10:15:10,198.51.100.42,10.0.1.15,administrator,Authentication,LOGIN_FAILED,RDP,FAILED,auth-gateway-prod,3389,128,256,Failed NTLM login attempt from external IP,NTLMSSP_AUTH_REJECTED_BAD_PASSWORD
+2026-11-01T10:15:25,198.51.100.42,10.0.1.15,administrator,Authentication,LOGIN_FAILED,RDP,FAILED,auth-gateway-prod,3389,128,256,Failed NTLM login attempt from external IP,NTLMSSP_AUTH_REJECTED_BAD_PASSWORD
+2026-11-01T10:20:11,185.220.101.45,192.168.1.1,anonymous,Firewall,PORT_SWEEP_SYN,TCP,BLOCKED,perimeter-firewall-01,21,64,0,Inbound probe blocked on FTP port,FLAGS=SYN TTL=52
+2026-11-01T10:20:15,185.220.101.45,192.168.1.1,anonymous,Firewall,PORT_SWEEP_SYN,TCP,BLOCKED,perimeter-firewall-01,22,64,0,Inbound probe blocked on SSH port,FLAGS=SYN TTL=52
+2026-11-01T10:20:19,185.220.101.45,192.168.1.1,anonymous,Firewall,PORT_SWEEP_SYN,TCP,BLOCKED,perimeter-firewall-01,23,64,0,Inbound probe blocked on Telnet port,FLAGS=SYN TTL=52
+2026-11-01T10:20:23,185.220.101.45,192.168.1.1,anonymous,Firewall,PORT_SWEEP_SYN,TCP,BLOCKED,perimeter-firewall-01,80,64,0,Inbound probe blocked on HTTP port,FLAGS=SYN TTL=52
+2026-11-01T10:20:27,185.220.101.45,192.168.1.1,anonymous,Firewall,PORT_SWEEP_SYN,TCP,BLOCKED,perimeter-firewall-01,443,64,0,Inbound probe blocked on HTTPS port,FLAGS=SYN TTL=52
+2026-11-01T10:20:31,185.220.101.45,192.168.1.1,anonymous,Firewall,PORT_SWEEP_SYN,TCP,BLOCKED,perimeter-firewall-01,3389,64,0,Inbound probe blocked on RDP port,FLAGS=SYN TTL=52

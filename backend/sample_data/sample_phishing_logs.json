@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2026-11-01T13:20:00",
+    "source_ip": "10.0.8.12",
+    "destination_ip": "192.0.2.200",
+    "username": "executive_assistant",
+    "event_type": "Application",
+    "action": "MALICIOUS_LINK_CLICKED",
+    "protocol": "HTTPS",
+    "status": "ALERT",
+    "hostname": "laptop-exec-assistant",
+    "port": 443,
+    "bytes_sent": 850,
+    "bytes_received": 1420,
+    "description": "User clicked malicious link pointing to https://login-verify-corp.xyz",
+    "raw_payload": "HTTP/2 GET https://login-verify-corp.xyz/login User-Agent: Chrome"
+  },
+  {
+    "timestamp": "2026-11-01T13:20:45",
+    "source_ip": "10.0.8.12",
+    "destination_ip": "192.0.2.200",
+    "username": "executive_assistant",
+    "event_type": "Endpoint",
+    "action": "SUSPICIOUS_ATTACHMENT_EXEC",
+    "protocol": "HOST_OS",
+    "status": "ALERT",
+    "hostname": "laptop-exec-assistant",
+    "port": 0,
+    "bytes_sent": 0,
+    "bytes_received": 0,
+    "description": "Macro executed in invoice_overdue_49102.xlsm launching PowerShell download",
+    "raw_payload": "WINWORD.EXE spawned cmd.exe -> powershell downloadstring"
+  }
+]

@@ -1,0 +1,4 @@
+timestamp,source_ip,destination_ip,username,event_type,action,protocol,status,hostname,port,bytes_sent,bytes_received,description,raw_payload
+2026-11-01T12:05:10,10.0.2.55,91.240.118.88,dev_lead,Endpoint,PROCESS_EXECUTION,HOST_OS,ALERT,workstation-dev-01,0,0,0,Suspicious encoded powershell payload executed,powershell.exe -NoProfile -ExecutionPolicy Bypass -enc JABzAD0ATgBlAHcALQBP...
+2026-11-01T12:05:30,10.0.2.55,91.240.118.88,SYSTEM,Endpoint,MALWARE_DETECTED,HOST_OS,ALERT,workstation-dev-01,0,0,0,Antivirus alert: mimikatz.exe detected in Temp folder,Process mimikatz.exe injected into memory
+2026-11-01T12:05:45,10.0.2.55,91.240.118.88,SYSTEM,Endpoint,RANSOMWARE_INDICATOR,HOST_OS,ALERT,workstation-dev-01,0,0,0,Ransomware command executed: vssadmin delete shadows,vssadmin.exe delete shadows /all /quiet
